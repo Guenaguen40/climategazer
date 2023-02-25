@@ -11,18 +11,21 @@
         android:layout_height="match_parent"
         android:orientation="horizontal"
         android:padding="14dp">
+
         <LinearLayout
-            android:layout_width="220dp"
+            android:layout_width="159dp"
             android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <TextView
                 android:id="@+id/temp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif-thin"
-                android:textColor="@color/white"
                 android:text="29°C"
+                android:textColor="@color/white"
                 android:textSize="40sp" />
+
             <TextView
                 android:id="@+id/statusTxt"
                 android:layout_width="wrap_content"
@@ -35,11 +38,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Wind:"
                     android:layout_marginRight="5dp"
+                    android:text="Wind:"
                     android:textColor="@color/white"
                     android:textSize="15sp" />
 
@@ -51,16 +55,18 @@
                     android:textColor="@color/white"
                     android:textSize="15sp" />
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
                     android:text="Humidity:"
                     android:textColor="@color/white"
-                    android:layout_marginRight="5dp"
                     android:textSize="15sp" />
 
                 <TextView
@@ -71,20 +77,21 @@
                     android:textColor="@color/white"
                     android:textSize="15sp" />
             </LinearLayout>
-                <TextView
-                    android:id="@+id/address"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="country"
-                    android:textColor="@color/white"
-                    android:layout_marginRight="5dp"
-                    android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:text="country"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
         </LinearLayout>
 
         <ImageView
-            android:layout_width="121dp"
+            android:layout_width="192dp"
             android:layout_height="142dp"
-            android:src="@drawable/sunrise"
-            app:tint="@color/white" />
+            android:src="@drawable/season"
+            app:tint="@null" />
     </LinearLayout>
 </RelativeLayout>
